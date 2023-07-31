@@ -7,7 +7,7 @@ import  { AuthContext } from '../Provider/AuthProvider';
 
 const Header = () => {
     
-    const {user} = useContext(AuthContext)
+    const {user, logOut} = useContext(AuthContext)
 
     return (
         <nav className='header'>
@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/about">About</Link>
                 <Link to="/login">Login</Link>
                 <Link to='/register'>Register</Link>
-                {user && <span>Welcome</span>}
+                {user && <span>Welcome{user.email}</span>}
             </div>
         </nav>
     );
