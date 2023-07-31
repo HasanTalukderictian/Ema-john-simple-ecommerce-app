@@ -3,3 +3,10 @@
     top: 0;
     padding: 30px 20px;
 }
+.btn-cart{
+    background-color: orange;
+    border: 1px solid wheat;
+    border-radius: 6px;
+    width: 100%;
+
+}

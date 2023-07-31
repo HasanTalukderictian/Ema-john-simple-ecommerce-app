@@ -16,3 +16,10 @@
 .cart-container{
     background-color: rgb(227, 191, 140);
 }
+.btn-Review{
+    background-color: orange;
+    border: 1px solid wheat;
+    border-radius: 6px;
+    width: 100%;
+
+}
