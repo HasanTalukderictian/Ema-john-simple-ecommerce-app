@@ -8,6 +8,7 @@ import Inventory from './components/Inventory/Inventory';
 import { ProductandCartLoader } from './Loaders/ProductsandCartloader';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import AuthProvider from './components/Provider/AuthProvider';
 
 
 function App() {
@@ -48,7 +49,9 @@ function App() {
 
   return (
     <div >
+      <AuthProvider>
       <RouterProvider  router ={router}></RouterProvider>
+      </AuthProvider>
     
     </div>
   );

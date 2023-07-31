@@ -42,7 +42,7 @@
     background-color: rgb(238, 236, 195);
     border-radius: 5px ;
     border: 1px solid rgb(246, 240, 246);
-    margin-top: 40px;
+    margin-top: 20px;
     border: none;
     line-height: 25px;
     font-size: 21px;
@@ -51,4 +51,7 @@
 }
 .btn-submit:hover{
     background-color: rgb(240, 228, 8);
+}
+.link{
+    text-decoration: none;
 }
